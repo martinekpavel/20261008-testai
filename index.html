@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jan Novák – Webový vývojář</title>
+  <meta name="description" content="Portfolio webového vývojáře Jana Nováka.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">&lt;JN/&gt;</a>
+    <nav>
+      <ul>
+        <li><a href="#home">Úvod</a></li>
+        <li><a href="#about">O mně</a></li>
+        <li><a href="#skills">Dovednosti</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">&gt; hello, world_</p>
+        <h1>Jsem Jan,<br>webový vývojář.</h1>
+        <p>Tvořím rychlé, přehledné a moderní weby s nádechem retra.</p>
+        <a class="btn" href="#projects">Moje projekty</a>
+        <a class="btn btn-alt" href="#contact">Napsat mi</a>
+      </div>
+      <img class="avatar" src="images/avatar.svg" alt="Portrét Jana Nováka">
+    </section>
+
+    <section id="about">
+      <h2>O mně</h2>
+      <p>Vývoji webů se věnuji více než 6 let. Baví mě čistý kód, dobrý design a
+      použitelnost. Pracuji s malými firmami i startupy a od nápadu po nasazení
+      se postarám o celý projekt.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Dovednosti</h2>
+      <ul class="cards">
+        <li class="card"><h3>HTML</h3><p>Sémantický a přístupný markup.</p></li>
+        <li class="card"><h3>CSS</h3><p>Responzivní layouty, Grid, Flexbox.</p></li>
+        <li class="card"><h3>JavaScript</h3><p>Moderní ES, TypeScript, React.</p></li>
+        <li class="card"><h3>Backend</h3><p>Node.js, REST API, databáze.</p></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projekty</h2>
+      <div class="cards">
+        <article class="card project">
+          <img src="images/project1.svg" alt="Náhled e-shopu">
+          <h3>Retro E-shop</h3>
+          <p>Rychlý internetový obchod s jednoduchou správou produktů.</p>
+        </article>
+        <article class="card project">
+          <img src="images/project2.svg" alt="Náhled dashboardu">
+          <h3>Analytics Dashboard</h3>
+          <p>Přehledné grafy a statistiky pro malé firmy.</p>
+        </article>
+        <article class="card project">
+          <img src="images/project3.svg" alt="Náhled mobilní aplikace">
+          <h3>Mobilní web app</h3>
+          <p>Responzivní aplikace optimalizovaná pro telefony.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>Máte projekt? Ozvěte se.</p>
+      <p><a class="btn" href="mailto:jan@example.com">jan@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Jan Novák · Vytvořeno v HTML a CSS</p>
+  </footer>
+</body>
+</html>
